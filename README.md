@@ -12,15 +12,25 @@ This project successfully transforms messy, unstructured international trade dat
 ## Folder Structure 
 International_Trade_Analysis_Assignment/
 ├── data/
-│   ├── raw/                     → Sample Data 2.xlsx (original)
+
+│   ├── raw/ → Sample Data 2.xlsx (original)
+
 │   └── processed/
+
 │       ├── shipments.csv        → Final clean data (used in Power BI)
+
 │       └── trade_data_cleaned.xlsx
+
 ├── notebooks/
+
 │   └── Trade_Data_Pipeline.ipynb → Complete Python pipeline (text parsing + cleaning)
+
 ├── trade_analysis.db            → SQLite version (optional)
+
 ├── shipments.csv                → Final dataset (same as in processed folder)
+
 ├── Trade_Dashboard_Using_shipments_csv.pbix → Complete interactive Power BI dashboard
+
 └── README.md                    → This file
 
 
